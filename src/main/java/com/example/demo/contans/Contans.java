@@ -5,7 +5,7 @@ import org.apache.hadoop.hbase.HBaseConfiguration;
 
 public class Contans {
 
-    //Hbase配置信息
+    //Hbase配置信息.
     public static Configuration CONF = null;
     static {
         CONF= HBaseConfiguration.create();
